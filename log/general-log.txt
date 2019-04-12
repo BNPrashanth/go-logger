@@ -1,0 +1,8 @@
+General Logger:	2019/04/13 00:40:45 main.go:9: Starting..
+General Logger:	2019/04/13 00:40:45 main.go:12: Running Process 1
+General Logger:	2019/04/13 00:40:45 main.go:13: Running Process 2
+Error Logger:	2019/04/13 00:40:45 main.go:15: An Error Occured: Error abcd
+General Logger:	2019/04/13 00:40:45 main.go:17: Running Process i
+Error Logger:	2019/04/13 00:40:45 main.go:18: An Error Occured: Error efgh
+General Logger:	2019/04/13 00:40:45 main.go:19: Running Process n
+General Logger:	2019/04/13 00:40:45 main.go:22: Execution Completed..
