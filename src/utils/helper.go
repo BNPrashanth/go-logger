@@ -19,7 +19,7 @@ func init() {
 		fmt.Println("Error reading given path:", err)
 	}
 
-	generalLog, err := os.OpenFile(absPath+"/general-log.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	generalLog, err := os.OpenFile(absPath+"/general-log.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
 	if err != nil {
 		fmt.Println("Error opening file:", err)
 		os.Exit(1)
